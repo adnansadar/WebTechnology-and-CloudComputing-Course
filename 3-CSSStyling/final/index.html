@@ -1,0 +1,157 @@
+<!-- Design a web page to demonstrate the use of different HTML tags -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: auto;
+        border-radius: 8px;
+      }
+
+      button:hover {
+        background-color: rgb(236, 155, 3);
+        border-radius: 8px;
+        transition-duration: 0.5s, 1s;
+        transition-timing-function: ease-in;
+      }
+
+      button {
+        background-color: DodgerBlue;
+        color: black;
+        padding: 10px;
+        text-transform: uppercase;
+        position: relative;
+        margin-left: 130px;
+      }
+
+      header {
+        margin: auto;
+        text-align: center;
+        background-color: DodgerBlue;
+        padding: 30px;
+      }
+
+      footer {
+        text-align: center;
+        color: black;
+        background-color: DodgerBlue;
+      }
+    </style>
+
+    <title>My Portfolio</title>
+  </head>
+  <header>
+    <nav>
+      <a href="./home.html">Home</a>
+      <a href="./projects.html" target="_blank">Projects</a>
+      <a href="./contact.html" target="_blank">Contact</a>
+    </nav>
+  </header>
+  <body style="background-color: Black; width: 100%; color: dodgerblue">
+    <br />
+    <div>
+      <img
+        src="./portrait.jpeg"
+        alt="Gutman Karakul lake"
+        height="480"
+        width="720"
+      />
+    </div>
+    <div class="portfolio">
+      <h1 style="color: DodgerBlue; text-align: center">My Portfolio</h1>
+      <h2>Name: Adnan Sadar</h2>
+      <h2>Age: 20</h2>
+      <h2>College: VIT Pune</h2>
+      <h2>My Hobbies:</h2>
+      <ol>
+        <li>Basketball &#127936;</li>
+        <li>Trekking &#9968;</li>
+        <li>Jogging &#127939;</li>
+        <li>Swimming &#127946;</li>
+      </ol>
+    </div>
+    <br />
+    <hr />
+    <section class="about">
+      <h2 class="about">About Me</h2>
+      <p>
+        I'm a 3<sup>rd</sup> Computer Science student at <em>VIT, Pune</em>. I
+        have completed my school and junior college education at St. Mary's
+        School, Pune. I'm a Front End Web Developer who is also comfortable with
+        JavaScript.
+      </p>
+    </section>
+    <br />
+    <div class="table">
+      <table>
+        <tr>
+          <th>Education</th>
+          <th>Year</th>
+          <th>Grades</th>
+        </tr>
+        <tr>
+          <td>St. Mary's School, Pune</td>
+          <td>2005-2016</td>
+          <td>91%</td>
+        </tr>
+        <tr>
+          <td>St. Mary's Junior College, Pune</td>
+          <td>2016-2018</td>
+          <td>82%</td>
+        </tr>
+        <tr>
+          <td>VIT, Pune</td>
+          <td>2018-2021</td>
+          <td>CGPA: 8.06</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <br />
+    <hr />
+
+    <div class="skills">
+      <h3>Skills:</h3>
+      <ul>
+        <li>Java:</li>
+        <progress value="80" max="100"></progress>
+        <br />
+        <li>JavaScript:</li>
+        <progress value="70" max="100"></progress>
+        <br />
+        <li>C:</li>
+        <progress value="60" max="100"></progress>
+        <br />
+        <li>Python:</li>
+        <progress value="60" max="100"></progress>
+      </ul>
+    </div>
+    <br />
+    <br />
+    <button>Get in Touch</button>
+    <br />
+    <br />
+  </body>
+  <br />
+  <br />
+  <footer>
+    <address>
+      Written By Adnan Sadar<br />Visit Us @
+      <a href="https://adnansadar.netlify.app">adnansadar.netlify.app</a>
+      <br />
+      Camp, Pune
+      <br />
+      India
+    </address>
+
+    <a href="adnan.sadar18@vit.edu">Email Us</a>
+    <p>Copyright &copy; 2021</p>
+  </footer>
+</html>

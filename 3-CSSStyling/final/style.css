@@ -1,0 +1,25 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(236, 155, 3);
+}
+
+td,
+th {
+  border: 1px solid dodgerblue;
+  text-align: left;
+  padding: 8px;
+}
+
+.table,
+.portfolio,
+.skills,
+.about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
